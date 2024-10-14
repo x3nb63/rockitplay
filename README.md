@@ -19,7 +19,24 @@ after downloading only a small fraction of the whole package (Preload). Dependin
 the game and the available network connection this preload may be on the order of
 only a few percent. While the game can be launched within seconds or minutes with
 ROCKIT, the download continues in the background until the entire title is locally
-available.
+available (see Tab.1).
+
+|             **Time-to-Play** |  **Game** |     **Standard** |   **ROCKITPLAY** |
+|-----------------------------:|----------:|-----------------:|-----------------:|
+| **@100Mbit/s**               |  **Size** | **Time-to-Play** | **Time-to-Play** |
+| The Elder Scrolls Online[^1] |     97 GB |       2 h 10 min |           90 sec |
+|               AC Odyssey[^2] |     77 GB |       1 h 45 min |           28 sec |
+|                 Lost Ark[^3] |     76 GB |       1 h 44 min |           34 sec |
+|               God of War[^4] |     68 GB |       1 h 31 min |            3 min |
+|               Maffia III[^5] |     57 GB |       1 h 16 min |           34 sec |
+
+*Tab.1: Internal benchmark results comparing time-to-play for full game downloads to ROCKITPLAY.*
+
+[^1]: © 2024 ZeniMax Media Inc. Trademarks are the property of their respective owners. All rights reserved.
+[^2]: © 2020 Ubisoft Entertainment. All Rights Reserved. Ubisoft and the Ubisoft logo are trademarks of Ubisoft Entertainment in the U.S. and/or other countries.
+[^3]: © 2021-2024 Smilegate RPG, Inc. all rights reserved. Lost Ark and the Lost Ark logo are trademarks of Smilegate RPG
+[^4]: © 2024 Sony Interactive Entertainment Europe Limited (SIEE)
+[^5]: ©2016-2024 Take-Two Interactive Software Inc. 2K, Firaxis Games, Civilization, and their respective logos are trademarks of Take-Two Interactive Software, Inc. All rights reserved.
 
 **ROCKIT can be applied to any game.** It is not necessary to modify the game's source
 code. This is accomplished by resequencing the download data stream according to the
@@ -40,8 +57,25 @@ The obtained optimized sequence of the data stream is used to launch the game be
 the download is completed. The ROCKIT preload size is dynamically evaluated from both
 the load profile of the game and the current download bandwidth measured on the user
 side. Statistical fluctuations of the network connection are taken into account.
-Faster network connections allow for launching a game with smaller preloads. ROCKIT's data stream representation allows for computing very small patch sizes
-compared to conventional general-purpose patch methods.
+Faster network connections allow for launching a game with smaller preloads.
+ROCKIT's data stream representation allows for computing very small patch sizes
+compared to conventional general-purpose patch methods (see Tab. 2).
+
+|                           |   **Standard** | **ROCKITPLAY** |               |
+|--------------------------:|---------------:|---------------:|--------------:|
+|                  **Game** | **Patch Size** | **Patch Size** | **Reduction** |
+|      Crime Boss Q2/23[^6] |       4 300 MB |         717 MB |          83 % |
+| AC Valhalla DoR Q3/22[^7] |       7 080 MB |       2 300 GB |          68 % |
+|        Fortnite Q3/21[^8] |      10 200 MB |       2 800 GB |          73 % |
+|       Cyberpunk Q2/21[^9] |      34 500 MB |      15 100 MB |          56 % |
+
+*Tab.2: Internal benchmark results comparing patch sizes for game store standard patches to ROCKITPLAY.*
+
+[^6]: © INGAME STUDIOS, Crime Boss: Rockay City Copyright © INGAME STUDIOS a.s. All Rights Reserved.
+[^7]: © 2021 Ubisoft Entertainment. All Rights Reserved. Assassin's Creed, Ubisoft and the Ubisoft logo are registered or unregistered trademarks of Ubisoft Entertainment in the U.S. and/or other countries.
+[^8]: © 2024, Epic Games, Inc. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine 4 and UE4 are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. All rights reserved.
+[^9]:© 2024 CD PROJEKT S.A. All rights reserved. CD PROJEKT, the CD PROJEKT logo, Cyberpunk, Cyberpunk 2077 and the Cyberpunk 2077 logo are trademarks and/or registered trademarks of CD PROJEKT S.A. in the United States and/or elsewhere.
+
 
 **Performance.** Once a game is fully downloaded ROCKIT can exploit the sequenced ROCKIT image data
 order to accelerate all subsequent game starts. In contrast to a native installation,
