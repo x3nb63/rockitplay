@@ -28,7 +28,7 @@ available (see Tab.1).
 |               AC Odyssey[^2] |     77 GB |       1 h 45 min |           28 sec |
 |                 Lost Ark[^3] |     76 GB |       1 h 44 min |           34 sec |
 |               God of War[^4] |     68 GB |       1 h 31 min |            3 min |
-|               Maffia III[^5] |     57 GB |       1 h 16 min |           34 sec |
+|                Mafia III[^5] |     57 GB |       1 h 16 min |           34 sec |
 
 *Tab.1: Internal benchmark results comparing time-to-play for full game downloads to ROCKITPLAY.*
 
