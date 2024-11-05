@@ -148,7 +148,7 @@ In order to deploy the ROCKIT Edge and ROCKIT Engine services the following prer
 1. Create a new organization:  
    <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-admin-api-v1/index.html#tag/ROCKIT-Edge-Organizations/paths/~1adm~1v1~1orgs/post">![](https://img.shields.io/badge//adm/v1/orgs-lightgray.svg?labelColor=blue&label=POST)</a>
 2. Register at least one destination CDN origin:  
-   <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-backend-api-v1/index.html#tag/Deployments">![](https://img.shields.io/badge//be/v1/subscriptions-lightgray.svg?labelColor=blue&label=POST)</a>
+   <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-backend-api-v1/index.html#tag/Deployments">![](https://img.shields.io/badge//be/v1/deployments-lightgray.svg?labelColor=blue&label=POST)</a>
 3. Create a new App:  
    <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-backend-api-v1/index.html#tag/Apps">![](https://img.shields.io/badge//be/v1/apps-lightgray.svg?labelColor=blue&label=POST)</a>
 4. Upload native game builds:  
