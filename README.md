@@ -153,8 +153,9 @@ In order to deploy the ROCKIT Edge and ROCKIT Engine services the following prer
    <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-backend-api-v1/index.html#tag/Apps">![](https://img.shields.io/badge//be/v1/apps-lightgray.svg?labelColor=blue&label=POST)</a>
 4. Upload native game builds:  
    <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-backend-api-v1/index.html#tag/Apps/paths/~1be~1v1~1builds/post">![](https://img.shields.io/badge//be/v1/builds-lightgray.svg?labelColor=blue&label=POST)</a>
-5. Optionally, monitor the status of the app and the ongoing processing tasks:  
+5. Optionally, monitor the status of the app  
    <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-backend-api-v1/index.html#tag/Appss">![](https://img.shields.io/badge//be/v1/apps-lightgray.svg?labelColor=green&label=GET)</a>  
+   and the ongoing processing tasks:  
    <a href="https://public.cloud.rockitplay.com/doc/rockit-edge-backend-api-v1/index.html#tag/Tasks">![](https://img.shields.io/badge//be/v1/tasks-lightgray.svg?labelColor=green&label=GET)</a>
 6. As soon as ROCKITPLAY has uploaded the generated ROCKIT image play the game to obtain ROCKIT traces using a game launcher supporting **ROCKITPLAY FastStart**, e.g., **ROCKIT StreamInstaller**.
 7. **ROCKITPLAY Cloud Service** automatically optimizes the ROCKIT acceleration and redeploys the new ROCKIT images.
